@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sam/RiderProjects/identity4_saml/SP/SP.csproj": {}
+    "/Users/sam/RiderProjects/identity4_saml/Website/Website.csproj": {}
   },
   "projects": {
-    "/Users/sam/RiderProjects/identity4_saml/SP/SP.csproj": {
+    "/Users/sam/RiderProjects/identity4_saml/Website/Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sam/RiderProjects/identity4_saml/SP/SP.csproj",
-        "projectName": "SP",
-        "projectPath": "/Users/sam/RiderProjects/identity4_saml/SP/SP.csproj",
+        "projectUniqueName": "/Users/sam/RiderProjects/identity4_saml/Website/Website.csproj",
+        "projectName": "Website",
+        "projectPath": "/Users/sam/RiderProjects/identity4_saml/Website/Website.csproj",
         "packagesPath": "/Users/sam/.nuget/packages/",
-        "outputPath": "/Users/sam/RiderProjects/identity4_saml/SP/obj/",
+        "outputPath": "/Users/sam/RiderProjects/identity4_saml/Website/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,12 +40,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Rsk.IdentityServer4.Saml": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
